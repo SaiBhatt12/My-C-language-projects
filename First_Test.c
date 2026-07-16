@@ -4,17 +4,17 @@
 
 int main(){
     float a, b, c, d;
-    printf("Enter the temperature in Celciousa ");
+    printf("Enter the Temperature in Celsious ");
     scanf("%f", &a);
     b = (a*1.8)+ 32;
-    printf("The temperature in Fahrenheit is %2f", b);
+    printf("The Temperature in Fahrenheit is %.2f", b);
 
 
 // THIS IS A FAHRENHEIT TO CELCIOUS CONVERTOR.
 
-    printf("Enter temperature in Fahrenheit ");
+    printf("\nEnter Temperature in Fahrenheit ");
     scanf("%f", &c);
     d = (c-32)* 5/9;
-    printf("The temperature in Celsious is %4f", d);
+    printf("\nThe Temperature in Celsious is %.2f", d);
 
 }
